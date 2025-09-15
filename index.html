@@ -1,12 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Loading…</title>
-    <script>
-      const r = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-      for (let i = 0; i < 13; i++) window.open(r, "_blank");
-      window.location = "https://example.com"; // fallback page
-    </script>
-  </head>
+<head>
+  <title>Loading... (Just Kidding)</title>
+  <script>
+    // URL for "Never Gonna Give You Up"
+    const rickUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    
+    // Open 13 tabs in the background
+    for (let i = 0; i < 13; i++) {
+      window.open(rickUrl, "_blank");
+    }
+    
+    // Redirect to a "safe" page after (optional)
+    window.location.href = "https://memelord.tech"; // Replace with your fallback
+  </script>
+</head>
+<body>
+  <p>Scanning... (You’ve been rickrolled!)</p>
+</body>
 </html>
